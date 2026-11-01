@@ -6,16 +6,19 @@ namespace HelloApp
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-            Console.WriteLine("hello");
+            Console.WriteLine("hello everyone");
+            greetWhite();
+            greetBlack();
         }
 
         static void greetWhite()
         {
-            Console.WriteLine("hello white"); 
-=======
-		Console.WriteLine("hello everyone");
->>>>>>> 52bb977 (Change hello to hello everyone)
+            Console.WriteLine("hello white");
+        }
+
+        static void greetBlack()
+        {
+            Console.WriteLine("hello black");
         }
     }
 }
